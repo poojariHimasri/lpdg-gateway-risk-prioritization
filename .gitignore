@@ -1,7 +1,7 @@
 # Challenge official data - DO NOT COMMIT TO GIT (per brief instructions)
 03-challenge-data/
 03-challenge-data.zip
-data/
+/data/
 *.parquet
 
 # Python bytecode & cache
