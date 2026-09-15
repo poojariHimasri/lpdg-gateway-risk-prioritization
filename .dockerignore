@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+.git
+.gitignore
+03-challenge-data.zip
+03-challenge-data/
+data/
+*.log

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  lpdg-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lpdg-gateway-maintenance
+    ports:
+      - "5000:5000"
+    environment:
+      - LPDG_DATA_DIR=/workspace/data
+    volumes:
+      # Mount external host data directory into the container
+      - ./03-challenge-data/data:/workspace/data:ro
+    restart: unless-stopped
