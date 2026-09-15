@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LPDG Gateway Risk Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <!-- Global Notification Banner -->
+  <div id="toast-banner" class="toast-banner hidden" role="alert">
+    <span id="toast-icon" class="toast-icon">ℹ️</span>
+    <span id="toast-message" class="toast-message">Notification message</span>
+    <button id="toast-close" class="toast-close" aria-label="Dismiss notification">&times;</button>
+  </div>
+
+  <div class="app-layout">
+    <!-- Top Header -->
+    <header class="dashboard-header">
+      <div class="header-brand">
+        <div class="brand-logo">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+            <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+            <line x1="12" y1="20" x2="12.01" y2="20"></line>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">LPDG Gateway Risk Dashboard</h1>
+          <p class="brand-subtitle">Intelligent Gateway Failure Prioritization &bull; Utility IoT Operations</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div id="api-status-badge" class="status-badge status-checking" title="Connecting to /api/health...">
+          <span class="status-indicator"></span>
+          <span id="api-status-text">Checking API...</span>
+        </div>
+        <div class="timestamp-badge" id="last-updated-badge" title="Time of last ranking refresh">
+          Last updated: <span id="last-updated-time">Never</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Controls Bar -->
+    <section class="controls-panel" aria-label="Dashboard Controls">
+      <div class="controls-group">
+        <div class="control-item">
+          <label for="week-select" class="control-label">Scored Monday (Week)</label>
+          <select id="week-select" class="form-select">
+            <option value="2026-02-02" selected>2026-02-02 &bull; Week 1</option>
+            <option value="2026-02-09">2026-02-09 &bull; Week 2</option>
+            <option value="2026-02-16">2026-02-16 &bull; Week 3</option>
+            <option value="2026-02-23">2026-02-23 &bull; Week 4</option>
+            <option value="2026-03-02">2026-03-02 &bull; Week 5</option>
+            <option value="2026-03-09">2026-03-09 &bull; Week 6</option>
+            <option value="2026-03-16">2026-03-16 &bull; Week 7</option>
+            <option value="2026-03-23">2026-03-23 &bull; Week 8</option>
+          </select>
+        </div>
+
+        <div class="control-item">
+          <label for="ranker-select" class="control-label">Ranking Algorithm</label>
+          <select id="ranker-select" class="form-select">
+            <option value="cost_risk" selected>Cost-Aware Risk (Recommended)</option>
+            <option value="baseline">Three Sigma Baseline (Official)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="controls-actions">
+        <button id="btn-load-ranking" class="btn btn-primary" title="Fetch top 15 recommendations for selected week">
+          <span class="btn-icon">⚡</span>
+          <span>Load Ranking</span>
+        </button>
+        <button id="btn-rerun-ranking" class="btn btn-secondary" title="Trigger batch calculation on backend (POST /api/predictions/run)">
+          <span class="btn-icon spinner-icon hidden" id="rerun-spinner">🔄</span>
+          <span id="rerun-text">Rerun Ranking</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Summary KPI Cards -->
+    <section class="summary-cards-grid" aria-label="Key Risk Metrics">
+      <div class="card kpi-card">
+        <div class="kpi-icon kpi-red">📍</div>
+        <div class="kpi-content">
+          <span class="kpi-label">Gateways at Risk</span>
+          <span class="kpi-value" id="kpi-gateways-count">15</span>
+          <span class="kpi-subtext">Weekly dispatch limit</span>
+        </div>
+      </div>
+
+      <div class="card kpi-card">
+        <div class="kpi-icon kpi-amber">⚡</div>
+        <div class="kpi-content">
+          <span class="kpi-label">Highest Risk Score</span>
+          <span class="kpi-value" id="kpi-highest-score">--</span>
+          <span class="kpi-subtext" id="kpi-score-type">Priority index</span>
+        </div>
+      </div>
+
+      <div class="card kpi-card">
+        <div class="kpi-icon kpi-blue">👥</div>
+        <div class="kpi-content">
+          <span class="kpi-label">Total Meters at Risk</span>
+          <span class="kpi-value" id="kpi-meters-risk">--</span>
+          <span class="kpi-subtext">Across top 15 sites</span>
+        </div>
+      </div>
+
+      <div class="card kpi-card">
+        <div class="kpi-icon kpi-purple">📅</div>
+        <div class="kpi-content">
+          <span class="kpi-label">Active Week</span>
+          <span class="kpi-value kpi-sm" id="kpi-selected-week">2026-02-02</span>
+          <span class="kpi-subtext">Target Monday</span>
+        </div>
+      </div>
+
+      <div class="card kpi-card">
+        <div class="kpi-icon kpi-cyan">⚙️</div>
+        <div class="kpi-content">
+          <span class="kpi-label">Active Ranker</span>
+          <span class="kpi-value kpi-sm" id="kpi-active-ranker">Cost-Aware</span>
+          <span class="kpi-subtext">Swappable strategy</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content: Ranking Table -->
+    <main class="table-container card">
+      <div class="table-header-bar">
+        <div class="table-title-area">
+          <h2 class="table-title">Top 15 Gateway Priority</h2>
+          <span class="table-subtitle">Click any row to inspect hardware specs and the "Why was this gateway ranked?" explanation</span>
+        </div>
+        <div class="table-search-area">
+          <input type="text" id="table-filter-input" class="search-input" placeholder="Filter by ID, region, site..." aria-label="Filter recommendations">
+        </div>
+      </div>
+
+      <!-- Loading Skeleton / Spinner -->
+      <div id="table-loading" class="table-loading hidden">
+        <div class="spinner"></div>
+        <p>Loading gateway telemetry and recommendations...</p>
+      </div>
+
+      <!-- Error State -->
+      <div id="table-error" class="table-message-state hidden">
+        <div class="error-icon">⚠️</div>
+        <h3 id="error-title">Unable to load recommendations</h3>
+        <p id="error-desc">Please verify that the backend API server is running on port 5000.</p>
+        <button id="btn-retry" class="btn btn-outline">Retry Request</button>
+      </div>
+
+      <!-- Table -->
+      <div class="responsive-table-wrapper" id="table-wrapper">
+        <table class="ranking-table" id="ranking-table">
+          <thead>
+            <tr>
+              <th class="col-rank">Rank</th>
+              <th class="col-id">Gateway ID</th>
+              <th class="col-score">Risk Score</th>
+              <th class="col-priority">Priority</th>
+              <th class="col-region">Region</th>
+              <th class="col-site">Site Type</th>
+              <th class="col-meters">Meters</th>
+              <th class="col-reason">Operational Reason</th>
+              <th class="col-action">Action</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-tbody">
+            <!-- Populated via JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-footer-note">
+        <span>Showing exactly 15 field technician visits &bull; Weekly dispatch limit strictly respected &bull; Decommissioned gateways proactively excluded</span>
+      </div>
+    </main>
+
+    <!-- Details Modal / Slide-in Drawer -->
+    <div id="gateway-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-gateway-id">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="modal-title-group">
+            <span class="modal-badge" id="modal-rank-badge">Rank #1</span>
+            <h2 class="modal-gateway-id" id="modal-gateway-id">0639EA5602C1</h2>
+            <span class="raw-mac-text" id="modal-raw-mac">Raw: 06:39:EA:56:02:C1</span>
+          </div>
+          <button id="btn-close-modal" class="btn-close" aria-label="Close details modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <!-- Explanation Section -->
+          <div class="modal-section explanation-section">
+            <h3 class="section-title">
+              <span class="title-icon">🔍</span> Why was this gateway ranked?
+            </h3>
+            <div class="explanation-box" id="modal-explanation-box">
+              <p id="modal-explanation-text">Loading diagnostic explanation...</p>
+            </div>
+          </div>
+
+          <!-- Hardware & Site Metadata Section -->
+          <div class="modal-section metadata-section">
+            <h3 class="section-title">
+              <span class="title-icon">📋</span> Gateway Asset Profile
+            </h3>
+            <div class="meta-grid" id="modal-meta-grid">
+              <div class="meta-item">
+                <span class="meta-label">Region</span>
+                <span class="meta-value" id="meta-region">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Site Type</span>
+                <span class="meta-value" id="meta-site-type">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Meters Installed</span>
+                <span class="meta-value" id="meta-meters">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Hardware Model</span>
+                <span class="meta-value" id="meta-hw-model">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Firmware Version</span>
+                <span class="meta-value" id="meta-fw-version">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Antenna Type</span>
+                <span class="meta-value" id="meta-antenna">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Commissioned On</span>
+                <span class="meta-value" id="meta-installed-on">--</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Tenant</span>
+                <span class="meta-value" id="meta-tenant">--</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button id="btn-modal-done" class="btn btn-primary">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- App Footer -->
+    <footer class="dashboard-footer">
+      <p>LPDG Innovation Hub Selection Challenge 2026 &bull; Track 2: Software Development</p>
+      <p class="footer-subtext">Economics Engine: €380 wasted visit vs €600/week unattended outage penalty</p>
+    </footer>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -121,13 +121,28 @@ The data directory defaults to `03-challenge-data/data`. You can override it via
 
 ## 6. How to Run
 
-### 1. Start the REST API Service
+### 1. Start the REST API & Web Dashboard
 ```bash
 python app/main.py --data 03-challenge-data/data --port 5000
 ```
 The service binds to `http://127.0.0.1:5000`.
 
-### 2. Generate Predictions (`predictions.csv`)
+### 2. Access the Interactive Web Dashboard
+Open your browser and navigate to:
+```text
+http://127.0.0.1:5000/
+```
+
+**Dashboard Capabilities:**
+* **Live API Health Status**: Real-time service connectivity and data path monitoring.
+* **Scored Week Selection**: Instant dropdown selection across all 8 official challenge weeks (`2026-02-02` to `2026-03-23`).
+* **Ranking Algorithm Switching**: Toggle between `Three Sigma Baseline` and `Cost-Aware Risk` on the fly.
+* **Risk Summary Cards**: Displays total gateways at risk (15), highest risk score, and aggregate meters at risk.
+* **Prioritized Gateway Table**: Ranked view with priority badges (`Critical`, `High`, `Moderate`), hardware models, regional installation types, and operational justifications.
+* **Interactive Inspection Modal**: Click any row to view hardware specifications, firmware version, antenna type, and the full diagnostic answer to *"Why was this gateway ranked?"*.
+* **Batch Rerun Control**: Click "Rerun Ranking" to trigger `POST /api/predictions/run`, regenerate `predictions.csv`, and dynamically refresh the view.
+
+### 3. Generate Predictions via CLI (`predictions.csv`)
 Run the prediction generator across all 8 official scored weeks (120 rows):
 ```bash
 # Generate using baseline 3-sigma ranker (with decommissioned filtering fix)

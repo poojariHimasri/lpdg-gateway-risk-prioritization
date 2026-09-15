@@ -5,8 +5,15 @@ from __future__ import annotations
 import argparse
 import os
 import pathlib
+import sys
 from typing import Optional
-from flask import Flask
+
+# Ensure project root is in sys.path when executed directly as a script
+_PROJECT_ROOT = pathlib.Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+
+from flask import Flask, render_template
 
 from app.data.loader import DataLoader, DEFAULT_DATA_DIR
 from app.ranking.interface import BaseRanker
@@ -22,7 +29,19 @@ def create_app(
     load_data: bool = False,
 ) -> Flask:
     """Create and configure the Flask application."""
-    app = Flask(__name__)
+    proj_root = pathlib.Path(__file__).resolve().parent.parent
+    template_dir = proj_root / "templates"
+    static_dir = proj_root / "static"
+    app = Flask(
+        __name__,
+        template_folder=str(template_dir),
+        static_folder=str(static_dir),
+    )
+
+    # Root route to serve dashboard frontend
+    @app.route("/", methods=["GET"])
+    def index():
+        return render_template("index.html")
 
     # 1. Configure DataLoader with default or overridden path
     loader = DataLoader(data_dir=data_dir)
