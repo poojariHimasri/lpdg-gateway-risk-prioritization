@@ -273,7 +273,6 @@ The container mounts host data from `./03-challenge-data/data` into `/workspace/
 
 ## 10. Live Evaluation & Unseen Data Guide
 
-During the live interview session, evaluators will provide an unseen month of data and request a live modification to demonstrate modularity and responsiveness.
 
 ### Ingesting Unseen Data
 The system accepts any new data directory via configuration without code changes:
