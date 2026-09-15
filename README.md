@@ -164,7 +164,7 @@ predictions.csv: OK
 ```
 
 ### 4. Run the Test Suite
-Execute all 33 unit, integration, API, and end-to-end tests:
+Execute all 34 unit, integration, API, and end-to-end tests:
 ```bash
 # Using unittest discovery
 python -m unittest discover -s tests -v
@@ -268,3 +268,29 @@ The container mounts host data from `./03-challenge-data/data` into `/workspace/
 1. **Telemetry Memory Footprint**: Loading full 8-month raw Parquet partitions (~1.43 million rows) into memory requires ~0.6 GB RAM. The service mitigates this by dynamically projecting columns and slicing only the required 28-day window per target week.
 2. **Meter Read Reporting Lag**: `meter_read_success.csv` is compiled weekly; telemetry is hourly. Real-time drops must rely on backhaul and radio signals until weekly meter audits arrive.
 3. **Synthetic Dataset Specifics**: The challenge dataset simulates realistic utility telemetry. Real-world deployments would require adapting to vendor-specific cellular protocols and firmware schemas.
+
+---
+
+## 10. Live Evaluation & Unseen Data Guide
+
+During the live interview session, evaluators will provide an unseen month of data and request a live modification to demonstrate modularity and responsiveness.
+
+### Ingesting Unseen Data
+The system accepts any new data directory via configuration without code changes:
+```bash
+# Via CLI flag:
+python app/main.py --data /path/to/unseen_data --port 5000
+python generate_predictions.py --data /path/to/unseen_data --out predictions_unseen.csv
+
+# Via environment variable:
+export LPDG_DATA_DIR=/path/to/unseen_data
+python app/main.py
+```
+
+### Ready Live Modifications
+The clean separation between data, features, ranking strategies, and web controllers enables rapid live changes during the interview:
+1. **Dynamic Ranking Strategy Selection**: The API supports switching algorithms at query time via `?ranker=baseline` or `?ranker=cost_risk` without restarting the server.
+2. **Plugging a New Ranker**: Add a new class conforming to `BaseRanker` in `app/ranking/` and register it in `app/ranking/__init__.py`. Zero changes are required in the Flask route controllers (`app/api/predictions.py`).
+3. **Adding a Query Filter**: To filter by minimum meter capacity (e.g. `?min_meters=100`) or region, add the query parameter parsing in `app/api/predictions.py` and filter the returned list.
+4. **Altering Business Cost Weights**: Adjust the economic loss parameters (€380 wasted visit vs €600 unattended failure) directly in `app/ranking/cost_aware.py`.
+

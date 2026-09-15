@@ -1,11 +1,13 @@
 # Architectural & Engineering Decisions (DECISIONS.md)
 
+**Part 2 area selected: Software Development**
+
 This document records the five major engineering choices made during the development of the LPDG Gateway Maintenance Ranking System. For each decision, we document the choice made, the alternative approaches evaluated, and the rationale for the final selection.
 
 ---
 
 ### Decision 1: Track Selection — Part 2: Software Development
-* **Choice:** Selected **Area B — Software Development**, prioritizing clean architectural separation of concerns, swappable ranking strategies via abstract contracts (`BaseRanker`), full test coverage (33 tests), rich REST API endpoints (`/predictions`, `/predictions/run`, `/gateways/<id>`, `/gateways/<id>/explain`, `/health`), robust error handling, and complete documentation.
+* **Choice:** Selected **Area B — Software Development**, prioritizing clean architectural separation of concerns, swappable ranking strategies via abstract contracts (`BaseRanker`), full test coverage (34 tests), rich REST API endpoints (`/predictions`, `/predictions/run`, `/gateways/<id>`, `/gateways/<id>/explain`, `/health`), robust error handling, and complete documentation.
 * **Alternatives Considered:** Part 2 Track E (Machine Learning) or Track C (DevOps).
 * **Why Rejected:** A complex machine learning model in production provides zero value if embedded in brittle, monolithic scripts that cannot be inspected, swapped, or operated under live scrutiny. The brief emphasizes that *"someone should be able to swap out how the ranking works without touching the API"* and that live changes will be evaluated. Building a hardened, modular software service allows any future machine learning model, statistical heuristic, or rule engine to be deployed as a drop-in replacement with zero modifications to API or operations workflows.
 

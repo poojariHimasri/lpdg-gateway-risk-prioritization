@@ -1,121 +1,121 @@
 week_start,rank,gateway_id,score,reason
-2026-02-02,1,0A2778A31BE3,43.0,43 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,2,0E1B6F4DBA34,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-02,3,064AED1EC0AA,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,4,06F49BD8F572,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,5,0EF023E6452D,23.0,23 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,6,0A6324E3E043,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,7,0A4E33E2692B,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,8,0AA473D2FC17,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,9,0A7AC5BDAF86,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,10,0A1FB1C98A92,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,11,0EE09EDA649F,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-02,12,06FFEC2EFA5E,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-02,13,06F2CDBD2C41,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,14,0A3528D089D9,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-02,15,02D7623552C8,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,1,0A68F38A6ACF,40.0,40 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,2,0228A99EE35A,34.0,34 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,3,0A3983033084,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,4,0AA296FF247D,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-09,5,0A1FB1C98A92,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-09,6,06D6B7018E15,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-09,7,02097AB58D3C,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-09,8,0A6324E3E043,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-09,9,0A71A6F9D6C6,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,10,0E9DC914D8DF,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,11,0A4E33E2692B,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,12,06D84598CCB4,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,13,0A7AC5BDAF86,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-09,14,0230D261A1CD,16.0,16 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-09,15,06787526FEB3,16.0,16 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,1,0A4673793B3E,38.0,38 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-16,2,0228A99EE35A,35.0,35 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-16,3,0AA296FF247D,32.0,32 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,4,065B928716CD,31.0,31 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,5,0A68F38A6ACF,30.0,30 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,6,02D49A34B2FE,29.0,29 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-16,7,0A4E33E2692B,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-16,8,0E69C64B6E57,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,9,0A6324E3E043,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-16,10,06F170E6BB03,23.0,23 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-16,11,0A68DF0B3D07,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-16,12,06238EE3BE6C,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-16,13,0A7AAFDD9E11,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-16,14,0230D261A1CD,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-16,15,060EE3CB4779,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,1,0228A99EE35A,39.0,39 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,2,06238EE3BE6C,38.0,38 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,3,0E1D7CA1DB0C,29.0,29 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,4,02D7623552C8,28.0,28 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,5,0AA473D2FC17,27.0,27 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,6,0EF023E6452D,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,7,0A4E33E2692B,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-02-23,8,0E3D96237639,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,9,0E69C64B6E57,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,10,060EE3CB4779,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,11,0A800188C20F,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,12,02D49A34B2FE,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-02-23,13,02F093C88F2E,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,14,0A6324E3E043,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-02-23,15,0ABC8E60F4C1,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,1,0EF023E6452D,30.0,30 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,2,024DD3A9ADCA,29.0,29 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-02,3,0E5303C82FCB,29.0,29 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,4,028B24EADDAD,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-02,5,0EE071F7B24A,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,6,0228A99EE35A,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,7,0A8407CF4D85,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,8,0A800188C20F,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,9,02D49A34B2FE,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,10,0E1D7CA1DB0C,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-02,11,0E121B6B8661,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-02,12,060EE3CB4779,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,13,0AA4B065E5A5,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,14,021406F56396,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-02,15,0A6324E3E043,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,1,0ABC8E60F4C1,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-03-09,2,06AEE181F595,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,3,0A6324E3E043,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,4,029DA26B1A92,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,5,024DD3A9ADCA,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-09,6,02F5CE7705EC,23.0,23 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,7,0E5303C82FCB,23.0,23 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,8,02075B45BF24,22.0,22 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,9,06C77FEA9550,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-09,10,06F170E6BB03,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-03-09,11,028B24EADDAD,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,12,0E41CF7F74D5,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-09,13,0E2DEE345837,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,14,0257E855DBCE,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-09,15,0EE071F7B24A,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,1,0A182EFD3C61,40.0,40 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,2,060C5773A61B,26.0,26 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-16,3,0A6324E3E043,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,4,0ABC8E60F4C1,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,5,0A268A7E40CD,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,6,0656377B3078,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,7,02F5CE7705EC,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-16,8,0230EEF72435,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,9,0A184A2E46B7,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,10,06AEE181F595,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,11,0A9A3BFD6C9B,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,12,06F170E6BB03,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-03-16,13,028B24EADDAD,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-16,14,06DAF11BD38F,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-16,15,0A6D3595373D,15.0,15 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,1,0687F36E02C6,28.0,28 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,2,0E121B6B8661,25.0,25 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on reboot_cnt
-2026-03-23,3,060C5773A61B,24.0,24 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,4,0A182EFD3C61,23.0,23 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,5,02F5CE7705EC,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,6,021406F56396,21.0,21 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,7,0230D261A1CD,20.0,20 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,8,0EE587927263,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,9,0EE51B79E853,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,10,0ABE42BE4165,19.0,19 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,11,06AEE181F595,18.0,18 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,12,0E5A9CEA8093,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,13,0EF47B410B41,17.0,17 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
-2026-03-23,14,0217820BFFB2,16.0,16 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on offline_duration_sec
-2026-03-23,15,0A800188C20F,15.0,15 hour(s) beyond 3 sigma of this gateway's own 28-day baseline in the last 7 days; first breach on disconnection_cnt
+2026-02-02,1,02423E0E6E9F,767.97,Rank 1: 297 meters at risk. 9h 3-sigma anomalies (offline_duration_sec) and 2674.0h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-02-02,2,0E9A30D927A5,622.0,Rank 2: 301 meters at risk. 6h 3-sigma anomalies (offline_duration_sec) and 465.3h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-02-02,3,069A98DEEB1D,602.96,Rank 3: 262 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 809.7h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-02-02,4,06C0D5E3BCDB,599.78,Rank 4: 251 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 1136.1h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-02-02,5,02E12310186C,574.39,Rank 5: 391 meters at risk. 0h 3-sigma anomalies (none) and 116.4h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-02-02,6,0ADD02AB693D,561.7,Rank 6: 204 meters at risk. 2h 3-sigma anomalies (offline_duration_sec) and 1155.6h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-02-02,7,06FFEC2EFA5E,499.79,Rank 7: 249 meters at risk. 19h 3-sigma anomalies (offline_duration_sec) and 120.8h offline in trailing 7d. Visiting averts est. €500/wk unread meter loss.
+2026-02-02,8,0AB6B45C775A,498.23,Rank 8: 199 meters at risk. 16h 3-sigma anomalies (offline_duration_sec) and 1332.9h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-02-02,9,0AA296FF247D,472.16,Rank 9: 273 meters at risk. 14h 3-sigma anomalies (disconnection_cnt) and 60.3h offline in trailing 7d. Visiting averts est. €472/wk unread meter loss.
+2026-02-02,10,0E5CD9B19DCB,469.67,Rank 10: 281 meters at risk. 3h 3-sigma anomalies (reboot_cnt) and 60.6h offline in trailing 7d. Visiting averts est. €470/wk unread meter loss.
+2026-02-02,11,064AED1EC0AA,467.21,Rank 11: 195 meters at risk. 26h 3-sigma anomalies (disconnection_cnt) and 179.9h offline in trailing 7d. Visiting averts est. €467/wk unread meter loss.
+2026-02-02,12,02314F9A9168,463.32,Rank 12: 194 meters at risk. 8h 3-sigma anomalies (disconnection_cnt) and 617.1h offline in trailing 7d. Visiting averts est. €463/wk unread meter loss.
+2026-02-02,13,0E1B6F4DBA34,460.02,Rank 13: 192 meters at risk. 26h 3-sigma anomalies (offline_duration_sec) and 264.4h offline in trailing 7d. Visiting averts est. €460/wk unread meter loss.
+2026-02-02,14,0A2778A31BE3,444.28,Rank 14: 140 meters at risk. 43h 3-sigma anomalies (disconnection_cnt) and 141.2h offline in trailing 7d. Visiting averts est. €444/wk unread meter loss.
+2026-02-02,15,022C6F326E3B,425.24,Rank 15: 156 meters at risk. 2h 3-sigma anomalies (reboot_cnt) and 2184.8h offline in trailing 7d. Visiting averts est. €425/wk unread meter loss.
+2026-02-09,1,02423E0E6E9F,767.97,Rank 1: 297 meters at risk. 3h 3-sigma anomalies (offline_duration_sec) and 2655.7h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-02-09,2,02097AB58D3C,667.26,Rank 2: 315 meters at risk. 21h 3-sigma anomalies (offline_duration_sec) and 63.5h offline in trailing 7d. Visiting averts est. €667/wk unread meter loss.
+2026-02-09,3,0E9A30D927A5,622.0,Rank 3: 301 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 164.7h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-02-09,4,069A98DEEB1D,602.96,Rank 4: 262 meters at risk. 0h 3-sigma anomalies (none) and 91.8h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-02-09,5,06C0D5E3BCDB,599.78,Rank 5: 251 meters at risk. 7h 3-sigma anomalies (offline_duration_sec) and 2440.6h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-02-09,6,0AA296FF247D,593.45,Rank 6: 273 meters at risk. 22h 3-sigma anomalies (offline_duration_sec) and 219.7h offline in trailing 7d. Visiting averts est. €593/wk unread meter loss.
+2026-02-09,7,02E12310186C,574.39,Rank 7: 391 meters at risk. 0h 3-sigma anomalies (none) and 5.1h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-02-09,8,0ADD02AB693D,561.7,Rank 8: 204 meters at risk. 4h 3-sigma anomalies (reboot_cnt) and 1238.2h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-02-09,9,0EE9497950EE,545.69,Rank 9: 769 meters at risk. 12h 3-sigma anomalies (disconnection_cnt) and 2.2h offline in trailing 7d. Visiting averts est. €546/wk unread meter loss.
+2026-02-09,10,0AB6B45C775A,498.23,Rank 10: 199 meters at risk. 13h 3-sigma anomalies (offline_duration_sec) and 2138.8h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-02-09,11,0E5CD9B19DCB,469.67,Rank 11: 281 meters at risk. 0h 3-sigma anomalies (none) and 3.9h offline in trailing 7d. Visiting averts est. €470/wk unread meter loss.
+2026-02-09,12,02314F9A9168,463.32,Rank 12: 194 meters at risk. 7h 3-sigma anomalies (reboot_cnt) and 957.3h offline in trailing 7d. Visiting averts est. €463/wk unread meter loss.
+2026-02-09,13,0ED5057ECE3F,455.55,Rank 13: 357 meters at risk. 10h 3-sigma anomalies (offline_duration_sec) and 36.3h offline in trailing 7d. Visiting averts est. €456/wk unread meter loss.
+2026-02-09,14,0E752F1B295C,451.01,Rank 14: 323 meters at risk. 8h 3-sigma anomalies (reboot_cnt) and 74.1h offline in trailing 7d. Visiting averts est. €451/wk unread meter loss.
+2026-02-09,15,027137436C87,427.42,Rank 15: 482 meters at risk. 15h 3-sigma anomalies (disconnection_cnt) and 2.7h offline in trailing 7d. Visiting averts est. €427/wk unread meter loss.
+2026-02-16,1,0A4673793B3E,1427.68,Rank 1: 549 meters at risk. 38h 3-sigma anomalies (disconnection_cnt) and 24.7h offline in trailing 7d. Visiting averts est. €1428/wk unread meter loss.
+2026-02-16,2,02D49A34B2FE,1071.15,Rank 2: 418 meters at risk. 29h 3-sigma anomalies (reboot_cnt) and 60.7h offline in trailing 7d. Visiting averts est. €1071/wk unread meter loss.
+2026-02-16,3,02423E0E6E9F,767.97,Rank 3: 297 meters at risk. 0h 3-sigma anomalies (none) and 1228.0h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-02-16,4,0AA296FF247D,745.06,Rank 4: 273 meters at risk. 32h 3-sigma anomalies (offline_duration_sec) and 562.0h offline in trailing 7d. Visiting averts est. €745/wk unread meter loss.
+2026-02-16,5,0E9A30D927A5,622.0,Rank 5: 301 meters at risk. 0h 3-sigma anomalies (none) and 32.0h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-02-16,6,069A98DEEB1D,602.96,Rank 6: 262 meters at risk. 0h 3-sigma anomalies (none) and 36.8h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-02-16,7,06C0D5E3BCDB,599.78,Rank 7: 251 meters at risk. 6h 3-sigma anomalies (reboot_cnt) and 2122.4h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-02-16,8,02E12310186C,574.39,Rank 8: 391 meters at risk. 0h 3-sigma anomalies (none) and 5.5h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-02-16,9,0ADD02AB693D,561.7,Rank 9: 204 meters at risk. 5h 3-sigma anomalies (offline_duration_sec) and 1339.1h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-02-16,10,0EE9497950EE,524.68,Rank 10: 769 meters at risk. 11h 3-sigma anomalies (disconnection_cnt) and 3.6h offline in trailing 7d. Visiting averts est. €525/wk unread meter loss.
+2026-02-16,11,0E752F1B295C,504.82,Rank 11: 323 meters at risk. 11h 3-sigma anomalies (reboot_cnt) and 53.4h offline in trailing 7d. Visiting averts est. €505/wk unread meter loss.
+2026-02-16,12,0AB6B45C775A,498.23,Rank 12: 199 meters at risk. 3h 3-sigma anomalies (offline_duration_sec) and 404.7h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-02-16,13,06238EE3BE6C,478.17,Rank 13: 228 meters at risk. 21h 3-sigma anomalies (reboot_cnt) and 46.9h offline in trailing 7d. Visiting averts est. €478/wk unread meter loss.
+2026-02-16,14,0E5CD9B19DCB,469.67,Rank 14: 281 meters at risk. 4h 3-sigma anomalies (disconnection_cnt) and 8.0h offline in trailing 7d. Visiting averts est. €470/wk unread meter loss.
+2026-02-16,15,02314F9A9168,463.32,Rank 15: 194 meters at risk. 3h 3-sigma anomalies (reboot_cnt) and 365.7h offline in trailing 7d. Visiting averts est. €463/wk unread meter loss.
+2026-02-23,1,0E1D7CA1DB0C,1132.32,Rank 1: 525 meters at risk. 29h 3-sigma anomalies (disconnection_cnt) and 27.5h offline in trailing 7d. Visiting averts est. €1132/wk unread meter loss.
+2026-02-23,2,02D49A34B2FE,885.44,Rank 2: 418 meters at risk. 21h 3-sigma anomalies (offline_duration_sec) and 98.6h offline in trailing 7d. Visiting averts est. €885/wk unread meter loss.
+2026-02-23,3,02423E0E6E9F,767.97,Rank 3: 297 meters at risk. 0h 3-sigma anomalies (none) and 660.3h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-02-23,4,06B641B75B29,729.36,Rank 4: 442 meters at risk. 13h 3-sigma anomalies (reboot_cnt) and 46.8h offline in trailing 7d. Visiting averts est. €729/wk unread meter loss.
+2026-02-23,5,06238EE3BE6C,698.22,Rank 5: 228 meters at risk. 38h 3-sigma anomalies (offline_duration_sec) and 194.1h offline in trailing 7d. Visiting averts est. €698/wk unread meter loss.
+2026-02-23,6,0E9A30D927A5,622.0,Rank 6: 301 meters at risk. 0h 3-sigma anomalies (none) and 27.2h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-02-23,7,069A98DEEB1D,602.96,Rank 7: 262 meters at risk. 0h 3-sigma anomalies (none) and 18.3h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-02-23,8,06C0D5E3BCDB,599.78,Rank 8: 251 meters at risk. 5h 3-sigma anomalies (disconnection_cnt) and 2120.3h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-02-23,9,02E12310186C,574.39,Rank 9: 391 meters at risk. 3h 3-sigma anomalies (disconnection_cnt) and 6.0h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-02-23,10,0ADD02AB693D,561.7,Rank 10: 204 meters at risk. 1h 3-sigma anomalies (disconnection_cnt) and 794.6h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-02-23,11,0A4673793B3E,547.55,Rank 11: 549 meters at risk. 10h 3-sigma anomalies (offline_duration_sec) and 22.3h offline in trailing 7d. Visiting averts est. €548/wk unread meter loss.
+2026-02-23,12,0E752F1B295C,540.7,Rank 12: 323 meters at risk. 13h 3-sigma anomalies (offline_duration_sec) and 66.3h offline in trailing 7d. Visiting averts est. €541/wk unread meter loss.
+2026-02-23,13,0ED5057ECE3F,532.11,Rank 13: 357 meters at risk. 11h 3-sigma anomalies (offline_duration_sec) and 44.3h offline in trailing 7d. Visiting averts est. €532/wk unread meter loss.
+2026-02-23,14,0AB6B45C775A,498.23,Rank 14: 199 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 1220.3h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-02-23,15,0AA296FF247D,487.32,Rank 15: 273 meters at risk. 15h 3-sigma anomalies (reboot_cnt) and 766.0h offline in trailing 7d. Visiting averts est. €487/wk unread meter loss.
+2026-03-02,1,0E1D7CA1DB0C,1053.29,Rank 1: 525 meters at risk. 19h 3-sigma anomalies (offline_duration_sec) and 48.0h offline in trailing 7d. Visiting averts est. €1053/wk unread meter loss.
+2026-03-02,2,02D49A34B2FE,862.23,Rank 2: 418 meters at risk. 20h 3-sigma anomalies (disconnection_cnt) and 467.6h offline in trailing 7d. Visiting averts est. €862/wk unread meter loss.
+2026-03-02,3,02423E0E6E9F,767.97,Rank 3: 297 meters at risk. 0h 3-sigma anomalies (none) and 143.8h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-03-02,4,02043B6BA08B,716.01,Rank 4: 475 meters at risk. 10h 3-sigma anomalies (disconnection_cnt) and 60.8h offline in trailing 7d. Visiting averts est. €716/wk unread meter loss.
+2026-03-02,5,0E9A30D927A5,622.0,Rank 5: 301 meters at risk. 2h 3-sigma anomalies (reboot_cnt) and 4.5h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-03-02,6,069A98DEEB1D,602.96,Rank 6: 262 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 14.7h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-03-02,7,06C0D5E3BCDB,599.78,Rank 7: 251 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 2877.5h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-03-02,8,02E12310186C,574.39,Rank 8: 391 meters at risk. 15h 3-sigma anomalies (offline_duration_sec) and 8.3h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-03-02,9,0EEA98D1BFDB,564.25,Rank 9: 587 meters at risk. 13h 3-sigma anomalies (offline_duration_sec) and 12.1h offline in trailing 7d. Visiting averts est. €564/wk unread meter loss.
+2026-03-02,10,0ADD02AB693D,561.7,Rank 10: 204 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 628.1h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-03-02,11,0E5303C82FCB,536.9,Rank 11: 238 meters at risk. 29h 3-sigma anomalies (disconnection_cnt) and 32.5h offline in trailing 7d. Visiting averts est. €537/wk unread meter loss.
+2026-03-02,12,0A8407CF4D85,513.02,Rank 12: 236 meters at risk. 22h 3-sigma anomalies (disconnection_cnt) and 87.5h offline in trailing 7d. Visiting averts est. €513/wk unread meter loss.
+2026-03-02,13,0AB6B45C775A,498.23,Rank 13: 199 meters at risk. 0h 3-sigma anomalies (none) and 105.9h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-03-02,14,028B24EADDAD,493.83,Rank 14: 211 meters at risk. 25h 3-sigma anomalies (offline_duration_sec) and 161.0h offline in trailing 7d. Visiting averts est. €494/wk unread meter loss.
+2026-03-02,15,024DD3A9ADCA,479.2,Rank 15: 187 meters at risk. 29h 3-sigma anomalies (offline_duration_sec) and 130.0h offline in trailing 7d. Visiting averts est. €479/wk unread meter loss.
+2026-03-09,1,0E1D7CA1DB0C,878.85,Rank 1: 525 meters at risk. 13h 3-sigma anomalies (disconnection_cnt) and 82.4h offline in trailing 7d. Visiting averts est. €879/wk unread meter loss.
+2026-03-09,2,02043B6BA08B,874.29,Rank 2: 475 meters at risk. 16h 3-sigma anomalies (reboot_cnt) and 83.0h offline in trailing 7d. Visiting averts est. €874/wk unread meter loss.
+2026-03-09,3,0EEA98D1BFDB,866.15,Rank 3: 587 meters at risk. 13h 3-sigma anomalies (disconnection_cnt) and 38.0h offline in trailing 7d. Visiting averts est. €866/wk unread meter loss.
+2026-03-09,4,0A4673793B3E,833.12,Rank 4: 549 meters at risk. 15h 3-sigma anomalies (offline_duration_sec) and 34.5h offline in trailing 7d. Visiting averts est. €833/wk unread meter loss.
+2026-03-09,5,02423E0E6E9F,767.97,Rank 5: 297 meters at risk. 0h 3-sigma anomalies (none) and 22.9h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-03-09,6,02F5CE7705EC,731.19,Rank 6: 387 meters at risk. 23h 3-sigma anomalies (disconnection_cnt) and 30.9h offline in trailing 7d. Visiting averts est. €731/wk unread meter loss.
+2026-03-09,7,06AEE181F595,678.02,Rank 7: 340 meters at risk. 25h 3-sigma anomalies (disconnection_cnt) and 30.5h offline in trailing 7d. Visiting averts est. €678/wk unread meter loss.
+2026-03-09,8,0E9A30D927A5,622.0,Rank 8: 301 meters at risk. 0h 3-sigma anomalies (none) and 2.3h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-03-09,9,02D49A34B2FE,606.87,Rank 9: 418 meters at risk. 9h 3-sigma anomalies (reboot_cnt) and 283.3h offline in trailing 7d. Visiting averts est. €607/wk unread meter loss.
+2026-03-09,10,069A98DEEB1D,602.96,Rank 10: 262 meters at risk. 2h 3-sigma anomalies (disconnection_cnt) and 9.3h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-03-09,11,06C0D5E3BCDB,599.78,Rank 11: 251 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 1834.9h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-03-09,12,02E12310186C,574.39,Rank 12: 391 meters at risk. 17h 3-sigma anomalies (offline_duration_sec) and 12.3h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-03-09,13,0ADD02AB693D,561.7,Rank 13: 204 meters at risk. 0h 3-sigma anomalies (none) and 97.9h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-03-09,14,0E5303C82FCB,530.58,Rank 14: 238 meters at risk. 23h 3-sigma anomalies (disconnection_cnt) and 58.2h offline in trailing 7d. Visiting averts est. €531/wk unread meter loss.
+2026-03-09,15,0AB6B45C775A,498.23,Rank 15: 199 meters at risk. 0h 3-sigma anomalies (none) and 53.7h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.
+2026-03-16,1,0EEA98D1BFDB,917.44,Rank 1: 587 meters at risk. 11h 3-sigma anomalies (disconnection_cnt) and 158.9h offline in trailing 7d. Visiting averts est. €917/wk unread meter loss.
+2026-03-16,2,02043B6BA08B,821.53,Rank 2: 475 meters at risk. 14h 3-sigma anomalies (reboot_cnt) and 172.0h offline in trailing 7d. Visiting averts est. €822/wk unread meter loss.
+2026-03-16,3,0A4673793B3E,797.07,Rank 3: 549 meters at risk. 9h 3-sigma anomalies (offline_duration_sec) and 57.9h offline in trailing 7d. Visiting averts est. €797/wk unread meter loss.
+2026-03-16,4,02F5CE7705EC,776.79,Rank 4: 387 meters at risk. 19h 3-sigma anomalies (offline_duration_sec) and 96.6h offline in trailing 7d. Visiting averts est. €777/wk unread meter loss.
+2026-03-16,5,02423E0E6E9F,767.97,Rank 5: 297 meters at risk. 0h 3-sigma anomalies (none) and 21.0h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-03-16,6,0E1D7CA1DB0C,762.22,Rank 6: 525 meters at risk. 9h 3-sigma anomalies (offline_duration_sec) and 145.5h offline in trailing 7d. Visiting averts est. €762/wk unread meter loss.
+2026-03-16,7,06AEE181F595,663.57,Rank 7: 340 meters at risk. 18h 3-sigma anomalies (disconnection_cnt) and 263.2h offline in trailing 7d. Visiting averts est. €664/wk unread meter loss.
+2026-03-16,8,02D49A34B2FE,653.3,Rank 8: 418 meters at risk. 11h 3-sigma anomalies (offline_duration_sec) and 502.8h offline in trailing 7d. Visiting averts est. €653/wk unread meter loss.
+2026-03-16,9,0E9A30D927A5,622.0,Rank 9: 301 meters at risk. 5h 3-sigma anomalies (offline_duration_sec) and 11.5h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-03-16,10,069A98DEEB1D,602.96,Rank 10: 262 meters at risk. 1h 3-sigma anomalies (offline_duration_sec) and 10.4h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-03-16,11,06C0D5E3BCDB,599.78,Rank 11: 251 meters at risk. 0h 3-sigma anomalies (none) and 601.9h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-03-16,12,06B641B75B29,581.19,Rank 12: 442 meters at risk. 10h 3-sigma anomalies (reboot_cnt) and 38.3h offline in trailing 7d. Visiting averts est. €581/wk unread meter loss.
+2026-03-16,13,0E752F1B295C,576.58,Rank 13: 323 meters at risk. 15h 3-sigma anomalies (reboot_cnt) and 102.0h offline in trailing 7d. Visiting averts est. €577/wk unread meter loss.
+2026-03-16,14,02E12310186C,574.39,Rank 14: 391 meters at risk. 12h 3-sigma anomalies (disconnection_cnt) and 6.8h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-03-16,15,0ADD02AB693D,561.7,Rank 15: 204 meters at risk. 0h 3-sigma anomalies (none) and 11.1h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-03-23,1,0616F247083A,865.97,Rank 1: 546 meters at risk. 12h 3-sigma anomalies (offline_duration_sec) and 46.4h offline in trailing 7d. Visiting averts est. €866/wk unread meter loss.
+2026-03-23,2,02F5CE7705EC,819.77,Rank 2: 387 meters at risk. 21h 3-sigma anomalies (offline_duration_sec) and 264.3h offline in trailing 7d. Visiting averts est. €820/wk unread meter loss.
+2026-03-23,3,02043B6BA08B,795.15,Rank 3: 475 meters at risk. 13h 3-sigma anomalies (offline_duration_sec) and 278.0h offline in trailing 7d. Visiting averts est. €795/wk unread meter loss.
+2026-03-23,4,02423E0E6E9F,767.97,Rank 4: 297 meters at risk. 0h 3-sigma anomalies (none) and 10.2h offline in trailing 7d. Visiting averts est. €768/wk unread meter loss.
+2026-03-23,5,0E1D7CA1DB0C,733.07,Rank 5: 525 meters at risk. 8h 3-sigma anomalies (offline_duration_sec) and 131.7h offline in trailing 7d. Visiting averts est. €733/wk unread meter loss.
+2026-03-23,6,0EEA98D1BFDB,689.24,Rank 6: 587 meters at risk. 4h 3-sigma anomalies (disconnection_cnt) and 93.2h offline in trailing 7d. Visiting averts est. €689/wk unread meter loss.
+2026-03-23,7,06AEE181F595,663.57,Rank 7: 340 meters at risk. 18h 3-sigma anomalies (disconnection_cnt) and 636.1h offline in trailing 7d. Visiting averts est. €664/wk unread meter loss.
+2026-03-23,8,0A4673793B3E,644.62,Rank 8: 549 meters at risk. 4h 3-sigma anomalies (offline_duration_sec) and 52.8h offline in trailing 7d. Visiting averts est. €645/wk unread meter loss.
+2026-03-23,9,0E9A30D927A5,622.0,Rank 9: 301 meters at risk. 4h 3-sigma anomalies (offline_duration_sec) and 6.6h offline in trailing 7d. Visiting averts est. €622/wk unread meter loss.
+2026-03-23,10,069A98DEEB1D,602.96,Rank 10: 262 meters at risk. 4h 3-sigma anomalies (offline_duration_sec) and 11.0h offline in trailing 7d. Visiting averts est. €603/wk unread meter loss.
+2026-03-23,11,06C0D5E3BCDB,599.78,Rank 11: 251 meters at risk. 0h 3-sigma anomalies (none) and 94.0h offline in trailing 7d. Visiting averts est. €600/wk unread meter loss.
+2026-03-23,12,0687F36E02C6,592.02,Rank 12: 302 meters at risk. 28h 3-sigma anomalies (offline_duration_sec) and 20.4h offline in trailing 7d. Visiting averts est. €592/wk unread meter loss.
+2026-03-23,13,02E12310186C,574.39,Rank 13: 391 meters at risk. 8h 3-sigma anomalies (disconnection_cnt) and 2.2h offline in trailing 7d. Visiting averts est. €574/wk unread meter loss.
+2026-03-23,14,0ADD02AB693D,561.7,Rank 14: 204 meters at risk. 0h 3-sigma anomalies (none) and 4.0h offline in trailing 7d. Visiting averts est. €562/wk unread meter loss.
+2026-03-23,15,0AB6B45C775A,498.23,Rank 15: 199 meters at risk. 0h 3-sigma anomalies (none) and 9.3h offline in trailing 7d. Visiting averts est. €498/wk unread meter loss.

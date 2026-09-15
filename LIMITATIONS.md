@@ -25,5 +25,5 @@ This document honestly outlines the current operational boundaries and performan
    * Harden the container setup with multi-stage Docker builds, non-root service users, and GitHub Actions automation executing linter checks (`flake8`, `black`, `mypy`) and unit tests on every pull request.
 3. **Technician Feedback Loop & Automated Resolution Tracking:**
    * Integrate an endpoint to ingest completed work orders from field visits in real time. If a technician records `Antenne getauscht` (antenna replaced), the system would immediately reset that gateway's baseline and remove it from candidate pools.
-4. **Interactive Operations Dashboard:**
-   * Build a lightweight executive dashboard (e.g., in React or Streamlit) showing Germany-wide map heatmaps, fleet health distribution, and estimated cost savings achieved per week.
+4. **Geospatial Fleet Mapping & Real-Time Telemetry Streaming:**
+   * While the interactive web dashboard is already fully implemented and serving weekly recommendations, modal inspections, and live ranker swapping, another two weeks would add interactive Leaflet/Mapbox GIS maps showing gateway spatial coordinates, technician drive-time routing, and WebSocket-based streaming of hourly telemetry counters.
