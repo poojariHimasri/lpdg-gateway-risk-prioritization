@@ -1,0 +1,17 @@
+# Challenge official data - DO NOT COMMIT TO GIT (per brief instructions)
+03-challenge-data/
+03-challenge-data.zip
+data/
+*.parquet
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.log
+
+# Environment & scratch
+.env
+venv/
+.venv/

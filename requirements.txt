@@ -1,0 +1,11 @@
+# Core Data & Numerical Processing
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=15.0.0
+openpyxl>=3.1.0
+
+# Web API Framework
+flask>=3.0.0
+
+# Testing & Quality
+pytest>=8.0.0
