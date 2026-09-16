@@ -400,21 +400,29 @@ class DataLoader:
         frames = []
         for part in target_partitions:
             part_path = telemetry_dir / part
-            try:
-                part_df = pd.read_parquet(part_path, columns=proj_cols)
-                frames.append(part_df)
-            except ImportError as err:
-                raise PackageMissingError(
-                    "Parquet reader unavailable. Please install 'pyarrow' or 'fastparquet' to read the telemetry partitioned parquet dataset."
-                ) from err
-            except Exception as err:
-                # If reading parquet directly failed due to engine
-                err_msg = str(err).lower()
-                if "engine" in err_msg or "pyarrow" in err_msg or "fastparquet" in err_msg:
+            # Target parquet files directly; reading files avoids pyarrow.dataset which requires
+            # arrow_acero.dll (blocked under Windows Application Control policies).
+            if part_path.is_dir():
+                target_files = sorted(part_path.glob("*.parquet"))
+            else:
+                target_files = [part_path]
+
+            for file_path in target_files:
+                try:
+                    part_df = pd.read_parquet(file_path, columns=proj_cols)
+                    frames.append(part_df)
+                except ImportError as err:
                     raise PackageMissingError(
                         "Parquet reader unavailable. Please install 'pyarrow' or 'fastparquet' to read the telemetry partitioned parquet dataset."
                     ) from err
-                raise DataValidationError(f"Failed to read parquet partition '{part}': {err}") from err
+                except Exception as err:
+                    # If reading parquet directly failed due to engine
+                    err_msg = str(err).lower()
+                    if "engine" in err_msg or "pyarrow" in err_msg or "fastparquet" in err_msg:
+                        raise PackageMissingError(
+                            "Parquet reader unavailable. Please install 'pyarrow' or 'fastparquet' to read the telemetry partitioned parquet dataset."
+                        ) from err
+                    raise DataValidationError(f"Failed to read parquet partition '{part}': {err}") from err
 
         if not frames:
             return pd.DataFrame(columns=proj_cols if proj_cols else ["gateway_id", "ts_utc"])
